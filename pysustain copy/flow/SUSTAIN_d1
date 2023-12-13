@@ -1,0 +1,254 @@
+<mxfile host="app.diagrams.net" modified="2023-12-12T23:54:20.649Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3f4KEyPfqL8zXg0lEjrv" version="22.1.8" type="google">
+  <diagram name="Page-1" id="CZKeYiexsmJjwB8iEee_">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zP7rA5uP5qmGf7mpIU-w-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1.5" y="-183" as="sourcePoint" />
+            <mxPoint x="1.5" y="-183" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-21" value="Sample selection&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-88" y="-187" width="204" height="128" as="geometry">
+            <mxRectangle x="-133" y="176" width="166" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-25" value="&lt;ul style=&quot;border-color: var(--border-color); text-align: left; font-size: 12px;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;Cognitively unimpaired&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;Age ≥ 40&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;MCI/AD diagnosis&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;Imaging/CSF evidence of Aβ&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ttHsoFdRj3iqTkTPR9C0-21">
+          <mxGeometry x="-34" y="20" width="252" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="ttHsoFdRj3iqTkTPR9C0-21" source="ttHsoFdRj3iqTkTPR9C0-25" target="ttHsoFdRj3iqTkTPR9C0-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-89" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ttHsoFdRj3iqTkTPR9C0-33" target="ttHsoFdRj3iqTkTPR9C0-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-33" value="Image Processing" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-133" y="-14" width="276" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-35" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Motion correction&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Within participant averaging of PET volumes&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Coregistration with skull-stripped native T1 - Desikan-Killiany parcellations&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SUVR: Intensity normalized using inferior cerebellar gray reference&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ttHsoFdRj3iqTkTPR9C0-33">
+          <mxGeometry x="-8.5" y="30" width="297" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-39" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Discovery sample N = 1,143/1,667, Flortaucipir&amp;nbsp;&lt;br&gt;Validation sample N = 469/657, RO048&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="98" y="-154" width="50" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-40" value="Data Transformation" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-133" y="187.5" width="277" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-41" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Select ROIs (m)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Fit 2-GMM (abnormal/normal) on each ROI&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Mean of the covariate-adjusted z-scores&amp;nbsp;&lt;/span&gt;based on the normal component (standardized residuals from OLS)&amp;nbsp;&lt;/li&gt;&lt;li&gt;Decide severity stages (n): z = 2, 5, 10.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ttHsoFdRj3iqTkTPR9C0-40">
+          <mxGeometry x="-9" y="25" width="289" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ttHsoFdRj3iqTkTPR9C0-44" target="ttHsoFdRj3iqTkTPR9C0-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-44" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;10 ROIs: &lt;br&gt;Left and right -&lt;br&gt;parietal; frontal; occipital; temporal; and MTL.&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="148" y="244.5" width="41" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-46" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;m = 10: number of ROIs&lt;br&gt;n = 3: number of ROI-specific severity stages&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="114" y="397" width="52" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-47" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ttHsoFdRj3iqTkTPR9C0-50" target="ttHsoFdRj3iqTkTPR9C0-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-50" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Input&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;m x n feature matrix&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=0;size=0.23;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-183" y="377" width="321" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ttHsoFdRj3iqTkTPR9C0-51" target="ttHsoFdRj3iqTkTPR9C0-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-51" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-124" y="549" width="200" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-55" value="&lt;b&gt;SuStaIN&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-52.5" y="575" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-59" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Number of subtypes: &lt;br&gt;range: 1 ~ 7; &lt;br&gt;optimized with 10-fold CV &lt;br&gt;on min CVIC, max log likelihood, out of sample log likelihood.&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;Maximum z-scores: 5&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Prior: uniform probabilities on subtype and stage&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="79" y="534" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-107" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ttHsoFdRj3iqTkTPR9C0-60" target="ttHsoFdRj3iqTkTPR9C0-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-109" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ttHsoFdRj3iqTkTPR9C0-60" target="ttHsoFdRj3iqTkTPR9C0-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-60" value="&lt;font style=&quot;font-weight: bold; font-size: 16px;&quot;&gt;Output&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;text-align: left; font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Subtype and stage probability&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Subtype subject proportions&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Subtype Biomarker z-score sequence&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=0;size=0.23;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-186" y="695" width="324" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-61" value="Post-hoc Subtype Correction" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="188" y="663" width="277" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-62" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Manual inspection&lt;/li&gt;&lt;li&gt;Marked individuals with &amp;lt;90% probability of abnormal tau positivity in L&amp;amp;R &lt;br&gt;entorhinal cortex and precuneus as T-&lt;/li&gt;&lt;li&gt;Examine stage/subtype classification and relocate false positives to stage0&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ttHsoFdRj3iqTkTPR9C0-61">
+          <mxGeometry x="-8" y="23" width="293" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-115" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="ttHsoFdRj3iqTkTPR9C0-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-12" y="54" as="sourcePoint" />
+            <mxPoint x="-12" y="54" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-106" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ttHsoFdRj3iqTkTPR9C0-63" target="ttHsoFdRj3iqTkTPR9C0-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-63" value="Subtype Characterization" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-32.5" y="855" width="311" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-64" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li&gt;Demographic, cognitive, and genetic variables&amp;nbsp;&lt;/li&gt;&lt;li&gt;Cognitive domain scores: means of z-scores for tests within the domains of memory, executive , language, and visual-spatial function.&lt;/li&gt;&lt;li&gt;Global cognitive scores (overall mean)&lt;/li&gt;&lt;li&gt;Relative cognitive domain scores&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ttHsoFdRj3iqTkTPR9C0-63">
+          <mxGeometry x="-11" y="18" width="301" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-66" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-293" y="560" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-67" value="Replication" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-583" y="488" width="263" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-68" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Vary severity cutoffs:&lt;br&gt;&lt;/span&gt;- Fit k-GMM on each ROI, k = 1...5&lt;br&gt;- Decide k with AIC, cutoffs with CV&lt;br&gt;- Spatial correlation for comparisons&lt;/li&gt;&lt;li&gt;Different radiotracer - BioFINDER 2&lt;br&gt;- Use num# of subtypes from discovery&lt;br&gt;- Split-half with discovery - sample size&lt;br&gt;- Spatial correlations for comparisons&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ttHsoFdRj3iqTkTPR9C0-67">
+          <mxGeometry x="-13" y="44" width="289" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-74" value="Subtype Comparison" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-21" y="1081" width="289" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-75" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li&gt;age, sex, edu, APOE4, MMSE, global cognition, total tau, and tau asymmetry&lt;/li&gt;&lt;li&gt;Subtypes vs T- (stage0): + clinical status, cohort&lt;/li&gt;&lt;li&gt;Subtypes 1 vs all: above + SuStaIn stage&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Subtypes 1 vs 1:&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Relationship between SuStaIn stage, age, MMSE&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ttHsoFdRj3iqTkTPR9C0-74">
+          <mxGeometry x="-23" y="21" width="309" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-94" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="ttHsoFdRj3iqTkTPR9C0-74" source="ttHsoFdRj3iqTkTPR9C0-75" target="ttHsoFdRj3iqTkTPR9C0-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-112" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ttHsoFdRj3iqTkTPR9C0-76" target="ttHsoFdRj3iqTkTPR9C0-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-76" value="Longitudinal Analysis" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-411" y="855" width="293" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-77" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li&gt;Z-scored w.r.t. cross-sectional cohorts per ROI&lt;/li&gt;&lt;li&gt;Stability: proportions of individuals classified as the same subtype at follow-up/progress from stage0 c.f. total&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;Compare subtype probabilities between stable vs unstable (t-test)&lt;/li&gt;&lt;li&gt;Annual change in SuStaIn stage&amp;nbsp;&lt;/li&gt;&lt;li&gt;One sample t-test vs 0, AOV among subtypes, correlate w baseline stage and age.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ttHsoFdRj3iqTkTPR9C0-76">
+          <mxGeometry x="-9" y="39" width="289" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-78" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Conflated early stages of MTL-sparing subtype (40.6%)&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="465" y="736" width="52" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-86" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ttHsoFdRj3iqTkTPR9C0-25" target="ttHsoFdRj3iqTkTPR9C0-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-110" value="Longitudinal Prediction" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="1083" width="271" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-111" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li&gt;Lasso regression to predict annualized change in SuStaIn stage (10fold CV)&lt;/li&gt;&lt;li&gt;Subsequently infer tau accumulation&lt;/li&gt;&lt;li&gt;Evaluate by correlation with longitudinal data, both whole data and within subtypes&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ttHsoFdRj3iqTkTPR9C0-110">
+          <mxGeometry x="-12" y="9" width="279" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-2" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ioxoJd-rafojQKpttC0V-1" target="ioxoJd-rafojQKpttC0V-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioxoJd-rafojQKpttC0V-2" value="Randomly split clusters into two" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1331.25" y="234" width="278" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ioxoJd-rafojQKpttC0V-9" target="9-23bmpg7OpBoiiUABj9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioxoJd-rafojQKpttC0V-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ioxoJd-rafojQKpttC0V-2" target="ioxoJd-rafojQKpttC0V-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ioxoJd-rafojQKpttC0V-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1884.25" y="1048.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioxoJd-rafojQKpttC0V-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Final clusters&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Likelihood&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Sequence&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1783.25" y="869" width="201.75" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-3" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ioxoJd-rafojQKpttC0V-9" target="ioxoJd-rafojQKpttC0V-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1668" y="418" as="sourcePoint" />
+            <mxPoint x="1659.25" y="359.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;For each cluster in current clusters list&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=36;" vertex="1" parent="1">
+          <mxGeometry x="1189" y="523" width="558.5" height="302" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="9-23bmpg7OpBoiiUABj9-12" source="9-23bmpg7OpBoiiUABj9-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="146" y="119.41176470588243" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-15" value="Find optimized split into &lt;br&gt;two clusters" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9-23bmpg7OpBoiiUABj9-12">
+          <mxGeometry x="48.25" y="46" width="194.75" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9-23bmpg7OpBoiiUABj9-12" source="9-23bmpg7OpBoiiUABj9-17" target="9-23bmpg7OpBoiiUABj9-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-17" value="Calculate likelihood for the&amp;nbsp;&lt;br&gt;&amp;nbsp;sequence and the two new clusters + the rest of the clusters list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9-23bmpg7OpBoiiUABj9-12">
+          <mxGeometry x="47.25" y="121" width="195.75" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-18" value="Update current max likelihood" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9-23bmpg7OpBoiiUABj9-12">
+          <mxGeometry x="357.25" y="210" width="159.75" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="9-23bmpg7OpBoiiUABj9-12" source="9-23bmpg7OpBoiiUABj9-19" target="9-23bmpg7OpBoiiUABj9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-19" value="Likelihood &amp;gt; current max" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="9-23bmpg7OpBoiiUABj9-12">
+          <mxGeometry x="63.25" y="207" width="168.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TRUE&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="9-23bmpg7OpBoiiUABj9-12">
+          <mxGeometry x="257.25" y="218" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-23" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;OUTPUT&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Final Clusters,&lt;br&gt;Sequence,&lt;br&gt;individual probabilities of subtype &amp;amp; stage" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1714" y="1045" width="362" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-29" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="ioxoJd-rafojQKpttC0V-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1479" y="830" as="sourcePoint" />
+            <mxPoint x="840" y="904" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1475" y="830" />
+              <mxPoint x="1475" y="948" />
+              <mxPoint x="1061" y="948" />
+              <mxPoint x="1061" y="412" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-31" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="9-23bmpg7OpBoiiUABj9-29">
+          <mxGeometry x="0.2135" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-30" value="Update clusters list, max likelihood, and sequence" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="608" width="162" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-38" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;SuStaIn&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=67;" vertex="1" parent="1">
+          <mxGeometry x="913" y="-165" width="1298" height="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-116" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Model Initialization&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="9-23bmpg7OpBoiiUABj9-38">
+          <mxGeometry x="422.75" y="172" width="271" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="ioxoJd-rafojQKpttC0V-1" value="&lt;b&gt;Input&lt;br&gt;&lt;/b&gt;biomarker z-scores for each patient" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;" vertex="1" parent="9-23bmpg7OpBoiiUABj9-38">
+          <mxGeometry x="401.75" y="286" width="307" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9-23bmpg7OpBoiiUABj9-38" source="ttHsoFdRj3iqTkTPR9C0-116" target="ioxoJd-rafojQKpttC0V-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ttHsoFdRj3iqTkTPR9C0-117" value="&lt;ul&gt;&lt;li&gt;C&lt;sub&gt;max&lt;/sub&gt;&amp;nbsp;= Maximum number of clusters&lt;br&gt;&lt;/li&gt;&lt;li&gt;Z&lt;sub&gt;thresholds&lt;/sub&gt;&amp;nbsp;= Severity stages for each biomarker&lt;/li&gt;&lt;li&gt;Z&lt;sub&gt;max &lt;/sub&gt;= Maximum severity for each biomarker&lt;/li&gt;&lt;li&gt;N = length of sequence of biomarker accumulation events&lt;br&gt;&amp;nbsp; &amp;nbsp; = ∑ number of severity stages for each biomarker&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;N&lt;sub&gt;MCMC&lt;/sub&gt;&amp;nbsp;= Number of MCMC steps in model fitting&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(typically 1e5, 1e6)&lt;/li&gt;&lt;li&gt;N&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;Start&amp;nbsp;&lt;/sub&gt;= Number of random cluster assignments initializations &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;attempted when split into two (typically 25~30)&lt;br&gt;&lt;/li&gt;&lt;li&gt;Threshold&lt;span style=&quot;font-size: 11.1111px;&quot;&gt;&amp;nbsp;&lt;sub&gt;&amp;nbsp;&lt;/sub&gt;&lt;/span&gt;= Threshold for the EM algorithm as &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;percentage of the maximized likelihood (typically 1e4)&lt;/li&gt;&lt;/ul&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=16;" vertex="1" parent="9-23bmpg7OpBoiiUABj9-38">
+          <mxGeometry x="708.75" y="189" width="50" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ioxoJd-rafojQKpttC0V-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;len(clusters list) &amp;lt; C&lt;/font&gt;&lt;sub style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;max&amp;nbsp;&lt;br&gt;or △max likelihood &amp;lt; threshold&lt;/font&gt;&lt;br&gt;&lt;/sub&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=16;" vertex="1" parent="9-23bmpg7OpBoiiUABj9-38">
+          <mxGeometry x="397.25" y="526" width="316" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;FALSE&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="9-23bmpg7OpBoiiUABj9-38">
+          <mxGeometry x="839" y="546" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-52" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TRUE&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="9-23bmpg7OpBoiiUABj9-38">
+          <mxGeometry x="495" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ttHsoFdRj3iqTkTPR9C0-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3" y="377" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ttHsoFdRj3iqTkTPR9C0-55" target="ttHsoFdRj3iqTkTPR9C0-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9-23bmpg7OpBoiiUABj9-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ttHsoFdRj3iqTkTPR9C0-62" target="ttHsoFdRj3iqTkTPR9C0-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
